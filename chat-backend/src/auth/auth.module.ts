@@ -6,7 +6,7 @@ import { AuthService } from './auth.service';
 @Module({
   imports: [
     JwtModule.register({
-      secret: '11465902861606643353359803826763',
+      secret: 'Вкладіть свій ключ, це особиста інформація',
       signOptions: { expiresIn: '1h' },
     }),
   ],
